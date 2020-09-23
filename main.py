@@ -7,6 +7,9 @@ root.withdraw()
 
 session = HTMLSession()
 
+global emails
+emails = []
+
 if not os.path.exists("./input.txt"):
     f= open("input.txt","w+")
 if not os.path.exists("results"):
